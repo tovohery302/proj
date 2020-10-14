@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    background-color: #f70;
+    text-align: center;
+    width: 100vw;
+}
+#partie1{
+    border: .1rem #000 solid;
+    background-color: rgba(238, 223, 10, 0.897);
+}
+#partie2{
+    border: .1rem #000 solid;
+    background-color: rgba(10, 223, 238, 0.897);
+}
+
+@media screen and (min-width:800px) and (max-width:1280px)
+{
+
+    
+header {
+    width: 100vw;
+}
+
+main {
+    display:flex;
+    /* width:100%; */
+}
+
+#partie1{
+    display:flex;
+    width:50%;
+}
+
+#partie1 article{
+    width: 70%;
+}
+
+#partie1 aside{
+    width: 30%;
+    text-align: right;
+    background-color: rgba(238, 25, 10, 0.897);
+}
+
+#partie2{
+    display:flex;
+    width:50%;
+}
+
+#spartie1{
+    width: 50%;
+    text-align: start;
+    position: relative;
+}
+
+#spartie2{
+    width: 50%;
+    text-align: end;
+    position: relative;
+}
+
+/* #desc1 {
+    position: relative;
+} */
+
+
+#adesc1 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+/* #desc2 {
+    position: relative;
+} */
+
+#adesc2 {
+    position: absolute;
+    right:0;
+    bottom:0;
+}
+}
