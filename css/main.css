@@ -1,3 +1,4 @@
+
 *{
     margin:0;
     padding:0;
@@ -5,7 +6,7 @@
 header{
     background-color: #f70;
     text-align: center;
-    width: 100vw;
+    /* width: 100vw; */
 }
 #partie1{
     border: .1rem #000 solid;
@@ -19,9 +20,14 @@ header{
 @media screen and (min-width:800px) and (max-width:1280px)
 {
 
-    
-header {
-    width: 100vw;
+/* body{
+    width:1000px;
+    margin: 0 auto;
+}     */
+header, main, footer {
+    /* width: 100vw; */
+    width: 80%;
+    margin: 0 auto;
 }
 
 main {
@@ -32,6 +38,8 @@ main {
 #partie1{
     display:flex;
     width:50%;
+    border-radius: 5px;
+    background-color: #fa8072;
 }
 
 #partie1 article{
@@ -47,6 +55,8 @@ main {
 #partie2{
     display:flex;
     width:50%;
+    border-radius: 5px;
+    background-color: #fa8072;
 }
 
 #spartie1{
